@@ -1,0 +1,41 @@
+.imgsize {
+  height: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+th {
+  display: table-cell;
+
+  vertical-align: inherit;
+
+  font-weight: bold;
+
+  text-align: center;
+}
+h1 {
+  color: Blue;
+}
+
+h2 {
+  color: red;
+  font-size: 2rem;
+}
+
+h3 {
+  color: aquamarine;
+  font-size: 2rem;
+}
+#progress {
+  appearance: none;
+}
+#progress::-webkit-progress-bar {
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+  border-radius: 10px;
+  background: #1d976c;
+  background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+  background: linear-gradient(to right, #93f9b9, #1d976c);
+}
